@@ -127,7 +127,7 @@ constexpr real d        {900.0l};            //distance target to detector in cm
 constexpr real delta_phi_inner{pi / 192.0l}; //azimuthal resolution for r < r_phi
 constexpr real delta_phi_outer{pi / 384.0l}; //azimuthal resolution for r > r_phi
 constexpr real r_phi    {40.0l};             //in cm
-constexpr real eps      {2.0l};              //energy detection threshold in GeV
+constexpr real eps      {0.1l};              //energy detection threshold in GeV
 
 // rapidity of CMS in lab frame for beam momentum p
 constexpr real y_cms_lab(const real &p)
